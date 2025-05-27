@@ -92,3 +92,33 @@ ul{
     background-color: lightblue;
 }
 
+h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row-of-boxes{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boxes-pictures{
+    border: 3px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.secondp{
+    text-align: center;
+    font-size: 18px;
+}
+
