@@ -50,14 +50,45 @@ ul{
     flex-direction: row;   
 }
 
-.content-left, .content-right{
+.content-right{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
+}
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 300px;
+    
 }
 
 .Img-first-section{
-    width: 250px;
-    height: 250px;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
 }
+
+.p-first{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.Sign-up{
+    color: #E5E7EB;
+    background-color: #3882F6;
+    width: 90px;
+    height: 25px;
+    border: 10px #3882F6;
+    border-radius: 5px; 
+}
+
+.Sign-up:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+
