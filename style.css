@@ -92,6 +92,10 @@ ul{
     background-color: lightblue;
 }
 
+.second-section{
+    height: 400px;
+}
+
 h2{
     font-size: 36px;
     color: #1F2937;
@@ -120,5 +124,28 @@ h2{
 .secondp{
     text-align: center;
     font-size: 18px;
+}
+
+.third-section{
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.third-p{
+    text-align: end;
+}
+
+#quote{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 500px;
 }
 
